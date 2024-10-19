@@ -9,7 +9,6 @@
     <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OWASP Club Event</title>
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,6 +33,52 @@
             color: #f1c40f;
             box-shadow: 0 0 20px #f1c40f;
         }
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    // Function to create event listener for a card
+    function createCardListener(cardId, url) {
+        document.getElementById(cardId).addEventListener('click', function() {
+            window.location.href = url;
+        });
+    }
+
+    // List of card IDs and corresponding URLs
+    const cardData = [
+        { id: 'card1', url: 'https://maleriadashboardandhra-gemt3ic6wwtw2rrojcdqzm.streamlit.app/' },
+        { id: 'card2', url: 'https://malariadashboardarunachal-amzqw44glosraswh84yvgq.streamlit.app/' },
+        { id: 'card3', url: 'https://malariadashboard-fvabwhqj7vhgydfhmfcjqs.streamlit.app/' },
+        { id: 'card4', url: 'https://malariadashboardbihar-tadyezwcrbrsb2kbsicbdu.streamlit.app/' },
+        { id: 'card5', url: 'https://malariadashboardchattisgarh-hmp6xmrqmgmahhxfiy4f2b.streamlit.app/' },
+        { id: 'card6', url: 'breastcancer/index.html' },
+        { id: 'card7', url: 'heartdisease/index.html' },
+        { id: 'card8', url: 'parkinsons/index.html' },
+        { id: 'card9', url: 'disease9/index.html' },
+        { id: 'card10', url: 'disease10/index.html' },
+        { id: 'card11', url: 'disease11/index.html' },
+        { id: 'card12', url: 'disease12/index.html' },
+        { id: 'card13', url: 'disease13/index.html' },
+        { id: 'card14', url: 'disease14/index.html' },
+        { id: 'card15', url: 'disease15/index.html' },
+        { id: 'card16', url: 'disease16/index.html' },
+        { id: 'card17', url: 'disease17/index.html' },
+        { id: 'card18', url: 'disease18/index.html' },
+        { id: 'card19', url: 'disease19/index.html' },
+        { id: 'card20', url: 'disease20/index.html' },
+        { id: 'card21', url: 'disease21/index.html' },
+        { id: 'card22', url: 'disease22/index.html' },
+        { id: 'card23', url: 'disease23/index.html' },
+        { id: 'card24', url: 'disease24/index.html' },
+        { id: 'card25', url: 'disease25/index.html' },
+        { id: 'card26', url: 'disease26/index.html' },
+        { id: 'card27', url: 'disease27/index.html' },
+        { id: 'card28', url: 'disease28/index.html' }
+    ];
+
+    // Create event listeners for each card
+    cardData.forEach(card => createCardListener(card.id, card.url));
+});
+
+    </script>
     </style>
 </head>
 
@@ -64,7 +109,7 @@
                 <div class="ag-format-container">
                     <div class="ag-courses_box">
                         <div class="row">
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card1">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -72,7 +117,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card2">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -80,7 +125,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card3">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -88,7 +133,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card4">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -96,7 +141,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card5">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -104,7 +149,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card6">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -112,7 +157,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card7">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -120,7 +165,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card8">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -128,7 +173,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card9">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -136,7 +181,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card10">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -144,7 +189,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card11">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -152,7 +197,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card12">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -160,7 +205,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card13">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -168,7 +213,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card14">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -176,7 +221,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card15">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -184,7 +229,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card16">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -192,7 +237,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card17">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -200,7 +245,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card18">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -208,7 +253,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card19">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -216,7 +261,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card20">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -224,7 +269,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card21">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -232,7 +277,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card22">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -240,7 +285,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card23">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -248,7 +293,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card24">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -256,7 +301,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card25">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -264,7 +309,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card26">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -272,7 +317,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card27">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
@@ -280,7 +325,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-xl-4">
+                            <div class="col-12 col-xl-4" id="card28">
                                 <div class="ag-courses_item">
                                     <a href="#" class="ag-courses-item_link">
                                         <div class="ag-courses-item_bg"></div>
